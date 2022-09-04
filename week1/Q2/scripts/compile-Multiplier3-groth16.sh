@@ -30,11 +30,12 @@ node Multiplier3/Multiplier3_js/generate_witness.js Multiplier3/Multiplier3_js/M
 
 snarkjs r1cs info Multiplier3/Multiplier3.r1cs
 
+# phase 1 of ceremony
 snarkjs powersoftau new bn128 12 Multiplier3/pot12_0000.ptau -v
 snarkjs powersoftau contribute Multiplier3/pot12_0000.ptau Multiplier3/pot12_0001.ptau --name="First contribution" -v
 
+# phase 2 of ceremony
 snarkjs powersoftau prepare phase2 Multiplier3/pot12_0001.ptau Multiplier3/pot12_final.ptau -v
-
 snarkjs groth16 setup Multiplier3/Multiplier3.r1cs powersOfTau28_hez_final_10.ptau Multiplier3/circuit_0000.zkey
 snarkjs zkey contribute Multiplier3/circuit_0000.zkey Multiplier3/circuit_final.zkey --name="1st Contribution Name" -v -e="random text"
 snarkjs zkey export verificationkey Multiplier3/circuit_final.zkey Multiplier3/verification_key.json
