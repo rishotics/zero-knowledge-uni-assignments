@@ -1,0 +1,113 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/rishabh/projects/blockchain/zero-knowledge-uni-assignments/week1/Q3/contracts/bonus/SystemOfEquations/SystemOfEquationsVerifier.sol": {
+      "lastModificationDate": 1663424654105,
+      "contentHash": "d88af1f5d35b2394b65d1d187afaa088",
+      "sourceName": "contracts/bonus/SystemOfEquations/SystemOfEquationsVerifier.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Pairing",
+        "Verifier"
+      ]
+    },
+    "/Users/rishabh/projects/blockchain/zero-knowledge-uni-assignments/week1/Q3/contracts/circuits/sudokuModified/sudokuModifiedVerifier.sol": {
+      "lastModificationDate": 1663424617381,
+      "contentHash": "222c2cb8fd938595f6d9e38249da6938",
+      "sourceName": "contracts/circuits/sudokuModified/sudokuModifiedVerifier.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Pairing",
+        "Verifier"
+      ]
+    },
+    "/Users/rishabh/projects/blockchain/zero-knowledge-uni-assignments/week1/Q3/contracts/SystemOfEquationsVerifier.sol": {
+      "lastModificationDate": 1663424661665,
+      "contentHash": "be4c15bf83528aabea5920275c710836",
+      "sourceName": "contracts/SystemOfEquationsVerifier.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Pairing",
+        "SystemOfEquationsVerifier"
+      ]
+    }
+  }
+}
